@@ -17,8 +17,21 @@ soup = bs(page.content, "html.parser")
 # Find elements by ID
 results = soup.find(id="ResultsContainer")
 
-# Use prettify for easier viewing.
-print(results.prettify())
+# Find elements by class name
+job_elements = results.find_all("div", class_="card-content")
+
+# Take a look at all of the elements
+for job_element in job_elements:
+    title = job_element.find("h2", class_="title")
+    company = job_element.find("h3", class_="company")
+    location = job_element.find("p", class_="location")
+
+    # view all of it
+    print(f"""------------------
+        \nTitle: {title.text}
+        \nCompany: {company.text}
+        \nLocation: {location.text}
+""")
 
 # NOW run the file in the terminal by typing: 
 # python fakejobs.py
