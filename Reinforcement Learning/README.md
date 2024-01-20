@@ -1,4 +1,4 @@
-## What is Reinforcement learning?
+# What is Reinforcement learning?
 
 A machine learning paradigm where an **agent** (the AI) learn form the **environment** by **interacting with it** (through trial and error) and **receiving rewards** (negative or positive) as a feedback for performing actions.
 
