@@ -1,1 +1,1 @@
-<img width="1920" alt="featured" src="https://github.com/mohamedyosef101/101_learning_area/assets/118842452/abbbabfc-c855-4168-9bbd-ac321a4b89b9">
+<img alt="OOP with Python" src="https://github.com/mohamedyosef101/101_learning_area/assets/118842452/279a319d-5beb-4b37-b593-95ba36b59753">
